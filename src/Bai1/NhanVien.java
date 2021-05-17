@@ -8,7 +8,10 @@ public class NhanVien extends CanBo{
         this.congViec = congViec;
     }
     public NhanVien(){
+    }
 
+    public NhanVien(String ten, int tuoi, String gt, String diachi) {
+        super(ten, tuoi, gt, diachi);
     }
 
     public String getCongViec() {

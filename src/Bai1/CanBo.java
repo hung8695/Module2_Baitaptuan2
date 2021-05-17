@@ -1,5 +1,7 @@
 package Bai1;
 
+import java.util.Scanner;
+
 public class CanBo{
     private String ten;
     private int tuoi;
@@ -46,4 +48,5 @@ public class CanBo{
     public void setDiachi(String diachi) {
         this.diachi = diachi;
     }
+
 }

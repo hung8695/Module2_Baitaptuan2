@@ -2,6 +2,7 @@ package Bai1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class QuanLy {
     private CanBo [] danhSachCanBo;
@@ -19,12 +20,8 @@ public class QuanLy {
             this.danhSachCanBo[size]=canBo;
             this.size++;
     }
-//    public void timKiemTheoTen(String ten){
-//        for(int i=0;i<canbo.size();i++){
-//           if(canbo.get(i).getTen().equals(ten)){
-//               System.out.println(canbo.get(i).toString());
-//           }
-//        }
+
+
 
     public void hienThiThongTin(){
         for (int i = 0; i < this.size; i++) {
@@ -39,5 +36,6 @@ public class QuanLy {
         }
         return -1;
     }
+
 
 }
