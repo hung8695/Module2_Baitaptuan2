@@ -112,20 +112,7 @@ public class Main {
         System.out.println("Bấm phím bất kỳ để ra menu lựa chọn! ");
         String luachon=sc.nextLine();
     }
-    static void nhapThongTin(){
 
-            Scanner scanner=new Scanner(System.in);
-            System.out.println("Nhập tên: ");
-            String ten = scanner.nextLine();
-            System.out.println("Nhập tuổi: ");
-            int tuoi= scanner.nextInt();
-            scanner.nextLine();
-            System.out.println("Nhập địa chỉ: ");
-            String diachi=scanner.nextLine();
-            System.out.println("Nhập giới tính: ");
-            String gt=scanner.nextLine();
-
-    }
 
 }
 
