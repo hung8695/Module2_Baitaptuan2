@@ -2,7 +2,7 @@ package Bai2;
 
 public class Document {
     public static String maSoChu="ABC";
-    public static int maSo= 1;
+    public static int maSo= 0;
 
     private String nxb;
     private int number;
@@ -12,20 +12,32 @@ public class Document {
 //    }
 //
     public Document(){
-    this.maSo++;
+    maSo++;
     }
     public Document(String nxb, int issue) {
+        maSo++;
         this.nxb = nxb;
         this.number = issue;
-        this.maSo++;
     }
 
     public String getNxb() {
         return nxb;
     }
 
+    public static void setMaSo(int maSo) {
+        Document.maSo = maSo;
+    }
+
+    public static int getMaSo() {
+        return maSo;
+    }
+
     public void setNxb(String nxb) {
         this.nxb = nxb;
+    }
+
+    public void setmId(String mId) {
+        this.mId = mId;
     }
 
     public int getNumber() {

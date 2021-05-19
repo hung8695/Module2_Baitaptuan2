@@ -9,6 +9,7 @@ public Book(){
         super(nxb, issue);
         this.nameAuthor = nameAuthor;
         this.page = page;
+
     }
 
 

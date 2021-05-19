@@ -10,13 +10,20 @@ public class Manager {
         list[size]=file;
         size++;
     }
-    public int delete(String id){
+
+
+    public int findId(String id){
         for (int i = 0; i < size; i++) {
             if (list[i].getmId().equals(id)){
                 return i;
             }
         }
         return -1;
+    }
+    public void display(){
+        for (int i = 0; i < size; i++) {
+            System.out.println(list[i].toString());
+        }
     }
 
 }
